@@ -1,0 +1,42 @@
+#now-playing-control-panel {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 99;
+  cursor: pointer;
+}
+
+
+.playing-control-panel-icon i {
+  position:relative;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.fa-repeat {
+  color:grey;
+}
+
+.fa-shuffle {
+  color:gray;
+}
+
+.fa-play {
+  color:#000000;
+
+}
+
+.play_button_circle {
+  display: flex;
+  position:relative;
+  bottom:36px;
+  right:2px;
+  margin: 0 auto;
+  background-color:black;
+  width:55px;
+  height: 55px;
+  border-radius: 30px;
+  z-index: 1;
+  opacity: 0.5;
+  cursor: pointer;
+}
+

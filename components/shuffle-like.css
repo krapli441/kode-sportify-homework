@@ -1,0 +1,46 @@
+.shuffle_and_like_button {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+
+.shuffle_button {
+  font-size:15px;
+  text-align:center;
+  color:white;
+  width:120px;
+  height:40px;
+  background-color:black;
+  border-radius: 50px;
+  line-height:40px;
+  box-shadow: 0px 0px 4px white;
+  cursor: pointer;
+  transition: box-shadow 0.1s linear;
+}
+
+
+.like_button {
+  font-size: 15px;
+  text-align:center;
+  color:black;
+  width:120px;
+  height:40px;
+  background-color:white;
+  border-radius: 50px;
+  line-height:40px;
+  box-shadow: 0px 0px 4px #aaaaaa;
+  cursor: pointer;
+  transition: box-shadow 0.1s linear;
+}
+
+
+.shuffle_button:hover {
+  box-shadow: 1px 1px 8px #000000;
+}
+
+.like_button:hover {
+  box-shadow: 1px 1px 8px #000000;
+}
+
+
